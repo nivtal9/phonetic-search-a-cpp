@@ -1,6 +1,6 @@
 //
 // Created by avi on 20.3.2020.
-//
+// AUTHORS : AVI HAIMOV AND NIV TAL
 #include "doctest.h"
 #include "PhoneticFinder.hpp"
 using namespace phonetic;
