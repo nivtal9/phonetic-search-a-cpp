@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/phonetic_search_a.dir/main.cpp.o CMakeFiles/phonetic_search_a.dir/PhoneticFinder.cpp.o CMakeFiles/phonetic_search_a.dir/Test.cpp.o CMakeFiles/phonetic_search_a.dir/Demo.cpp.o CMakeFiles/phonetic_search_a.dir/TestCounter.cpp.o CMakeFiles/phonetic_search_a.dir/TestExample.cpp.o  -o phonetic_search_a 
