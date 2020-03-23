@@ -12,8 +12,8 @@ using namespace std;
 
 int main() {
 	string text = "Dond vorri be haffy";
-   // string x= "haffy cat ";
-   // cout << isSmiliar(x,"happy") << endl;
+    string x= "haffy cat ";
+    cout <<  phonetic::find(x,"happy") << endl;
 	cout << phonetic::find(text, "dont") << endl;   // should print "Dond"
 	cout << phonetic::find(text, "worry") << endl;   // should print "vorri"
 	cout << phonetic::find(text, "Be") << endl;   // should print "be"
@@ -23,4 +23,5 @@ int main() {
 	} catch (exception ex) {
 	 	cout << "   caught exception: " << ex.what() << endl;  // should print "Did not find the word 'happ' in the text"
 	}
+	 
 }

@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/avi/CLionProjects/phonetic-search-a-cpp/PhoneticFinder.cpp
-iostream
--
+/home/avi/CLionProjects/phonetic-search-a-cpp/Demo.cpp
 PhoneticFinder.hpp
 /home/avi/CLionProjects/phonetic-search-a-cpp/PhoneticFinder.hpp
+iostream
+-
+stdexcept
+-
 
 /home/avi/CLionProjects/phonetic-search-a-cpp/PhoneticFinder.hpp
 iostream

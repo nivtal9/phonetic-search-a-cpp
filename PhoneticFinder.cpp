@@ -1,5 +1,6 @@
 #include <iostream>
 #include "PhoneticFinder.hpp"
+
 using namespace std;
 
 
@@ -43,6 +44,10 @@ string phonetic::find(string text, string word){
 }
 
 bool isSmiliar (char x, char y){
+
+    y=(char)tolower(y);
+    x=(char)tolower(x);
+
 
     if( y =='c' || y=='C' ||y=='k' ||y=='K' || y=='q' || y=='Q' ){
         if(( x=='c' || x=='C' ||x=='k' ||x=='K' || x=='q' || x=='Q' )){
