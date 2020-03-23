@@ -40,7 +40,9 @@ string phonetic::find(string text, string word){
         }
         j++;
     }
-    return "wrong";
+   //return
+    throw std::invalid_argument("wrong");
+
 }
 
 bool isSmiliar (char x, char y){
