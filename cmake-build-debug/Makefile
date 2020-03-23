@@ -48,10 +48,10 @@ RM = /snap/clion/107/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nivtal9/CLionProjects/phonetic-search-a
+CMAKE_SOURCE_DIR = /home/avi/CLionProjects/phonetic-search-a-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nivtal9/CLionProjects/phonetic-search-a/cmake-build-debug
+CMAKE_BINARY_DIR = /home/avi/CLionProjects/phonetic-search-a-cpp/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nivtal9/CLionProjects/phonetic-search-a/cmake-build-debug/CMakeFiles /home/nivtal9/CLionProjects/phonetic-search-a/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/avi/CLionProjects/phonetic-search-a-cpp/cmake-build-debug/CMakeFiles /home/avi/CLionProjects/phonetic-search-a-cpp/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nivtal9/CLionProjects/phonetic-search-a/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/avi/CLionProjects/phonetic-search-a-cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -258,33 +258,6 @@ TestExample.cpp.s:
 	$(MAKE) -f CMakeFiles/phonetic_search_a.dir/build.make CMakeFiles/phonetic_search_a.dir/TestExample.cpp.s
 .PHONY : TestExample.cpp.s
 
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/phonetic_search_a.dir/build.make CMakeFiles/phonetic_search_a.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/phonetic_search_a.dir/build.make CMakeFiles/phonetic_search_a.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/phonetic_search_a.dir/build.make CMakeFiles/phonetic_search_a.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -309,9 +282,6 @@ help:
 	@echo "... TestExample.o"
 	@echo "... TestExample.i"
 	@echo "... TestExample.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 .PHONY : help
 
 

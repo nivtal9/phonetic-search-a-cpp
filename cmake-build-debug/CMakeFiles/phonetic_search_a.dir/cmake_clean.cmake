@@ -4,7 +4,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/phonetic_search_a.dir/Test.cpp.o"
   "CMakeFiles/phonetic_search_a.dir/TestCounter.cpp.o"
   "CMakeFiles/phonetic_search_a.dir/TestExample.cpp.o"
-  "CMakeFiles/phonetic_search_a.dir/main.cpp.o"
   "phonetic_search_a"
   "phonetic_search_a.pdb"
 )

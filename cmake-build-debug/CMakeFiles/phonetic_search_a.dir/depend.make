@@ -18,5 +18,3 @@ CMakeFiles/phonetic_search_a.dir/TestExample.cpp.o: ../PhoneticFinder.hpp
 CMakeFiles/phonetic_search_a.dir/TestExample.cpp.o: ../TestExample.cpp
 CMakeFiles/phonetic_search_a.dir/TestExample.cpp.o: ../doctest.h
 
-CMakeFiles/phonetic_search_a.dir/main.cpp.o: ../main.cpp
-

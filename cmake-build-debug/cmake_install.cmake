@@ -1,4 +1,4 @@
-# Install script for directory: /home/nivtal9/CLionProjects/phonetic-search-a
+# Install script for directory: /home/avi/CLionProjects/phonetic-search-a-cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nivtal9/CLionProjects/phonetic-search-a/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/avi/CLionProjects/phonetic-search-a-cpp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

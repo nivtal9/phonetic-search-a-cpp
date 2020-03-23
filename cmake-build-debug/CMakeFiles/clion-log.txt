@@ -1,4 +1,4 @@
-/snap/clion/107/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/nivtal9/CLionProjects/phonetic-search-a
+/snap/clion/107/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/avi/CLionProjects/phonetic-search-a-cpp
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/nivtal9/CLionProjects/phonetic-search-a/cmake-build-debug
+-- Build files have been written to: /home/avi/CLionProjects/phonetic-search-a-cpp/cmake-build-debug
