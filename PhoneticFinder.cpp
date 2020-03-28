@@ -41,7 +41,8 @@ string phonetic::find(string text, string word){
         j++;
     }
    //return
-    throw std::invalid_argument("wrong");
+    throw excepion();
+    
 
 }
 
