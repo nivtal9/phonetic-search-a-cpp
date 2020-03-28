@@ -41,7 +41,7 @@ string phonetic::find(string text, string word){
         j++;
     }
    //return
-    throw excepion();
+    throw exception();
     
 
 }
