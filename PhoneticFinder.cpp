@@ -8,8 +8,11 @@ string phonetic::find(string text, string word){
     int i=0;
     int j=0;
     if(text.length()==1){
+        while(j<text.length() ){
         if(isSmiliar(text.at(j),word.at(i))){
             return text.substr(j - i, i+1);
+        }
+            j++;
         }
         
     }
