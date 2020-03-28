@@ -8,17 +8,17 @@ string phonetic::find(string text, string word){
     int i=0;
     int j=0;
     
-    while(j<text.length()-1 && i<word.length()){
+    while(j<text.length() && i<word.length()){
         bool flag=true;
 
-        while(text.at(j)!=' '&&j!=text.length()-1) {
+        while(text.at(j)!=' '&&j!=text.length()) {
             bool similar=false;
 
             if(isSmiliar(text.at(j),word.at(i)) && flag){
-                if(word.length()!=1){
+                if(word.length()-1!=i){
                 i++;
                 }
-                if(text.length()!=1){
+                if(text.length()-1!=j){
                 j++;
                 }
                 similar=true;
