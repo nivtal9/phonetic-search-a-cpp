@@ -69,7 +69,7 @@ bool isSmiliar (char x, char y){
         }
     }
     else if( y=='v' || y=='V' ||y=='w' ||y=='W' ){
-        if(( x=='v' || x=='V' ||x=='f' ||x=='W' )){
+        if(( x=='v' || x=='V' ||x=='w' ||x=='W' )){
             return true;
         }
     }
