@@ -15,8 +15,12 @@ string phonetic::find(string text, string word){
             bool similar=false;
 
             if(isSmiliar(text.at(j),word.at(i)) && flag){
+                if(word.length()!=1){
                 i++;
+                }
+                if(text.length()!=1){
                 j++;
+                }
                 similar=true;
             }
             if (i == word.length()-1 &&  similar ) {
