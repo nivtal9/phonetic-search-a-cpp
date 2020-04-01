@@ -53,8 +53,8 @@ string phonetic::find(string text, string word){
 
 bool isSmiliar (char x, char y){
 
-    //y=(char)tolower(y);
-    //x=(char)tolower(x);
+    y=(char)tolower(y);
+    x=(char)tolower(x);
 
 
     if( y =='c' || y=='C' ||y=='k' ||y=='K' || y=='q' || y=='Q' ){
