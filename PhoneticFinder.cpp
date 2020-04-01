@@ -17,7 +17,10 @@ string phonetic::find(string text, string word){
                 if(word.length()-1!=i) {
                     i++;
                 }
-                
+                if(word.length()==1 && text.at(j+1)==' '){
+                    return text.substr(j - i, i+1);
+
+                }
                 if(text.length()-1!=j ) {
                     j++;
                 }
